@@ -1,4 +1,6 @@
-# AQUILIGN -- Mutilingual aligner and collator
+# AQUILIGN -- Mutilingual aligner and collator -- démonstration atelier biblissima+
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/matgille/BiblissimaAlignementMacro/HEAD)
 
 [![codecov](https://codecov.io/github/ProMeText/Aquilign/graph/badge.svg?token=TY5HCBOOKL)](https://codecov.io/github/ProMeText/Aquilign)
 
