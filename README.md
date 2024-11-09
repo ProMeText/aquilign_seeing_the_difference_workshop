@@ -1,8 +1,55 @@
 # AQUILIGN -- Mutilingual aligner and collator -- démonstration atelier biblissima+
 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ProMeText/atelier_biblissima_aquilign/HEAD)
+## Utilisation
+Les notebooks présents sur ce dépôt ne sont pas utilisables avec binder en raison des ressources en mémoire importantes requises par les modèles de langue. Nous vous recommandons de les lancer en local à l'aide de jupyter notebook par exemple
 
+### Clônage du dépôt et création d'un environnement virtuel
+
+Un environnement virtuel permet d'isoler l'installation des librairies d'un projet pour éviter les conflits de version. Une fois placés dans le répertoire de votre choix:
+
+```
+git clone https://github.com/ProMeText/atelier_biblissima_aquilign
+cd atelier_biblissima_aquilign
+```
+
+Il suffit ensuite d'installer venv si ce n'est déjà fait `pip install --user virtualenv`. Le code a été vérifié sur la version 3.10 de python. On installera aussi jupyterlab.
+
+```
+python3.10 -m venv venv
+pip install jupyterlab
+source venv/bin/activate
+```
+
+### Installation de ipykernel et mise en relation de l'environnement virtuel
+
+
+Nous utilisons ici l'excellent manuel de Nikolai Janakiev: [https://janakiev.com/blog/jupyter-virtual-envs/](https://janakiev.com/blog/jupyter-virtual-envs/).
+
+```
+pip install --user ipykernel 
+python -m ipykernel install --user --name=venv
+```
+
+Le terminal devrait retourner: `Installed kernelspec myenv in /home/user/.local/share/jupyter/kernels/myenv`. Vous pouvez afficher le fichier `kernel.json` présent dans le répertoire indiqué par l'outil pour vérifier que le kernel pourra bien utiliser l'environnement virtuel créé: 
+
+```json
+{
+ "argv": [
+  "le_chemin_vers_le_python_de_l_environnement_virtuel",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "myenv",
+ "language": "python"
+}
+```
+
+C'est bon ! Il suffit maintenant d'ouvrir jupyter-notebook.
+
+---
 
 
 This repo contains a set of scripts to align (and soon collate) a multilingual medieval corpus. Its designers are Matthias Gille Levenson, Lucence Ing and Jean-Baptiste Camps.  
