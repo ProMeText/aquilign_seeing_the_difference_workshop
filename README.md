@@ -42,12 +42,12 @@ Le terminal devrait retourner: `Installed kernelspec myenv in /home/user/.local/
   "-f",
   "{connection_file}"
  ],
- "display_name": "myenv",
+ "display_name": "venv",
  "language": "python"
 }
 ```
 
-C'est bon ! Il suffit maintenant d'ouvrir jupyter-notebook.
+C'est bon ! Il suffit maintenant d'ouvrir jupyterlab: `jupyter lab`
 
 ---
 
