@@ -29,8 +29,6 @@ dnspython==2.6.1
 evaluate==0.4.2
 exceptiongroup==1.2.2
 executing==2.1.0
-fairseq2==0.2.0
-fairseq2n==0.2.0
 faiss-gpu==1.7.2
 fastjsonschema==2.20.0
 filelock==3.13.1
@@ -41,7 +39,6 @@ fsspec==2024.2.0
 googletrans==3.0.0
 h11==0.14.0
 h2==3.2.0
-hpack==3.0.2
 hstspreload==2024.4.1
 httpcore==1.0.6
 httpx==0.27.2
