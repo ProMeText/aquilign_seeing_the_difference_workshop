@@ -16,9 +16,9 @@ cd atelier_biblissima_aquilign
 Il suffit ensuite d'installer venv si ce n'est déjà fait `pip install --user virtualenv`. Le code a été vérifié sur la version 3.10 de python. On installera aussi jupyterlab.
 
 ```
-python3.10 -m venv venv
-pip install jupyterlab
-source venv/bin/activate
+python3.10 -m venv atelier_biblissima_env
+source atelier_biblissima_env/bin/activate
+pip3 install -r requirements
 ```
 
 ### Installation de ipykernel et mise en relation de l'environnement virtuel
@@ -27,8 +27,8 @@ source venv/bin/activate
 Nous utilisons ici l'excellent manuel de Nikolai Janakiev: [https://janakiev.com/blog/jupyter-virtual-envs/](https://janakiev.com/blog/jupyter-virtual-envs/).
 
 ```
-pip install --user ipykernel 
-python -m ipykernel install --user --name=venv
+pip3 install ipykernel 
+python -m ipykernel install --name=atelier_biblissima_env
 ```
 
 Le terminal devrait retourner: `Installed kernelspec myenv in /home/user/.local/share/jupyter/kernels/myenv`. Vous pouvez afficher le fichier `kernel.json` présent dans le répertoire indiqué par l'outil pour vérifier que le kernel pourra bien utiliser l'environnement virtuel créé: 
