@@ -2,7 +2,13 @@
 
 
 ## Utilisation
-Les notebooks présents sur ce dépôt ne sont pas utilisables avec binder en raison des ressources en mémoire importantes requises par les modèles de langue. Nous vous recommandons de les lancer en local à l'aide de jupyter notebook par exemple
+Les notebooks présents sur ce dépôt ne sont pas utilisables avec binder en raison des ressources en mémoire importantes requises par les modèles de langue. 
+Nous vous recommandons de les lancer en local à l'aide de jupyter lab par exemple.
+
+## Prérequis
+
+- Au moins 8Go de mémoire
+- Une trentaine de Go d'espace disponible pour l'entraînement des modèles de langue
 
 ### Clônage du dépôt et création d'un environnement virtuel
 
@@ -18,7 +24,7 @@ Il suffit ensuite d'installer venv si ce n'est déjà fait `pip install --user v
 ```
 python3.10 -m venv atelier_biblissima_env
 source atelier_biblissima_env/bin/activate
-pip3 install -r requirements
+pip3 install -r requirements.txt
 ```
 
 ### Installation de ipykernel et mise en relation de l'environnement virtuel
