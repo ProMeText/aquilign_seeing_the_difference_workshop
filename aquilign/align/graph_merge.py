@@ -57,7 +57,6 @@ def merge_alignment_table(alignment_dict:dict) -> list:
         G.add_edges_from(structured_a)
     connected_nodes = []
     # On prend chaque noeud et on en ressort les noeuds connectés
-    print(alignment_dict)
     for node in G:
         # https://stackoverflow.com/a/33089602
         connected_components = list(networkx.node_connected_component(G, node))
@@ -97,7 +96,6 @@ def merge_alignment_table(alignment_dict:dict) -> list:
     
     
     for wit in possible_witnesses:
-        print(f"\n{wit}")
         for omitted in omitted_pos[wit]:
             # print(f"Omitted position {omitted} for wit {wit}")
             # Let's retrieve the corresponding alignment unit, we keep the index to allow the injection in case B (see below)
