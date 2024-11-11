@@ -54,7 +54,7 @@ Le terminal devrait retourner: `Installed kernelspec myenv in /home/user/.local/
 }
 ```
 
-C'est bon ! Il suffit maintenant d'ouvrir jupyterlab: `jupyter lab` Il suffit maintenant d'ouvrir le notebook atelier_1.ipynb. Vous devriez être en mesure d'utiliser l'environnement virtuel lié.
+C'est bon ! Il suffit maintenant d'ouvrir jupyterlab: `jupyter lab` et les notebooks dans l'ordre de la séance.
 
 ---
 
