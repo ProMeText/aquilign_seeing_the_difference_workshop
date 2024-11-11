@@ -7,7 +7,7 @@ Nous vous recommandons de les lancer en local à l'aide de jupyter lab par exemp
 
 ## Prérequis
 
-- Au moins 8Go de mémoire
+- Au moins 8 Go de mémoire
 - Une trentaine de Go d'espace disponible pour l'entraînement complet
   des modèles de segmentation (étape pouvant être passée)
 
@@ -20,7 +20,7 @@ git clone https://github.com/ProMeText/atelier_biblissima_aquilign
 cd atelier_biblissima_aquilign
 ```
 
-Il suffit ensuite d'installer venv si ce n'est déjà fait `pip install --user virtualenv`. Le code a été vérifié sur la version 3.10 de python. On installera aussi jupyterlab.
+Il suffit ensuite d'installer venv si ce n'est déjà fait `pip install --user virtualenv`. Le code a été vérifié sur la version 3.10 de python. 
 
 ```
 python3.10 -m venv atelier_biblissima_env
