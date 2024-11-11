@@ -8,7 +8,8 @@ Nous vous recommandons de les lancer en local à l'aide de jupyter lab par exemp
 ## Prérequis
 
 - Au moins 8Go de mémoire
-- Une trentaine de Go d'espace disponible pour l'entraînement des modèles de langue
+- Une trentaine de Go d'espace disponible pour l'entraînement complet
+  des modèles de segmentation (étape pouvant être passée)
 
 ### Clônage du dépôt et création d'un environnement virtuel
 
