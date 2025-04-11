@@ -38,7 +38,7 @@ Here we use Nikolai Janakiev's excellent manual:
 
 ```
 pip3 install ipykernel 
-python -m ipykernel install --name=atelier_biblissima_env
+python -m ipykernel install --user --name=atelier_biblissima_env 
 ```
 
 The terminal should return: `Installed kernelspec myenv in /home/user/.local/share/jupyter/kernels/myenv`. You can display the `kernel.json` file in the directory indicated by the tool to check that the kernel will be able to use the virtual environment created:
