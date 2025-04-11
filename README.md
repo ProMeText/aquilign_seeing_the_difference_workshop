@@ -1,4 +1,4 @@
-# AQUILIGN -- Mutilingual aligner and collator -- démonstration atelier biblissima+
+# AQUILIGN -- Mutilingual aligner and collator -- "Seeing the difference" workshop; Leiden, april 14-17, 2025.
 
 
 ## Use
