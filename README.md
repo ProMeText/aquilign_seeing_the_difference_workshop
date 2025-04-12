@@ -22,23 +22,23 @@ git clone https://github.com/ProMeText/atelier_biblissima_aquilign
 cd atelier_biblissima_aquilign
 ```
 
-Then simply install venv if you haven't already done so `pip install --user virtualenv`. **The code has been verified on python version 3.10.**
+Then simply install venv if you haven't already done so `pip install --user virtualenv`. **The code has been verified on python version 3.10: please use this version.**
 
 ```
-python3.10 -m venv atelier_biblissima_env
-source atelier_biblissima_env/bin/activate
+python3.10 -m venv venv
+source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
 ### Installing ipykernel and linking the virtual environment
 
 
-Here we use Nikolai Janakiev's excellent manual: 
+Here we use Nikolai Janakiev's excellent manual to link our notebooks with the virtual env: 
 : [https://janakiev.com/blog/jupyter-virtual-envs/](https://janakiev.com/blog/jupyter-virtual-envs/).
 
 ```
 pip3 install ipykernel 
-python -m ipykernel install --user --name=atelier_biblissima_env 
+python -m ipykernel install --user --name=seeing_the_difference_environment 
 ```
 
 The terminal should return: `Installed kernelspec myenv in /home/user/.local/share/jupyter/kernels/myenv`. You can display the `kernel.json` file in the directory indicated by the tool to check that the kernel will be able to use the virtual environment created:
