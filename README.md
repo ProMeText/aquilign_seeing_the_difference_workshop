@@ -22,12 +22,12 @@ git clone https://github.com/ProMeText/atelier_biblissima_aquilign
 cd atelier_biblissima_aquilign
 ```
 
-Then simply install venv if you haven't already done so `pip install --user virtualenv`. **The code has been verified on python version 3.10: please use this version.**
+Then simply install venv if you haven't already done so `pip install --user virtualenv`. **The code has been verified on python version 3.10: please use this python version.**
 
 ```
 python3.10 -m venv seeing_the_difference_environment
 source seeing_the_difference_environment/bin/activate
-pip3 install -r requirements.txt
+pip3 install -r requirements_cpu.txt
 ```
 
 ### Installing ipykernel and linking the virtual environment
